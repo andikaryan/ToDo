@@ -1,0 +1,27 @@
+.list-item {
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .check {
+    text-decoration: line-through;
+  }
+  
+  .wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lists-task {
+    padding: 0;
+  }
+  .input-task{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+  }
+  .btn-add{
+    border-radius: 12px;
+    padding: 5px;
+  }
